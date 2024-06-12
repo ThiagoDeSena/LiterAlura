@@ -21,38 +21,31 @@ habilidades na persistência de dados em um banco de dados relacional utilizando
   ![image](https://github.com/ThiagoDeSena/LiterAlura/assets/110785400/86f841c2-43ae-4418-bbee-9a0a87f49237)
 
 
-Exemplo do Programa sendo executado no console:
+- Exemplo do Programa sendo executado no console:
 
-![Imagem do console inicial do programa](https://github.com/ThiagoDeSena/Tabela-Fipe/assets/110785400/4dd1c8df-56da-4f68-803f-3c7ed61e6826)
-
-
-Este projeto foi criado para atender às necessidades de quem quer comprar veículos usados e desejam consultar os valores dos veículos desejados na Tabela FIPE, 
-referência nacional para preços de carros usados no Brasil.
+  ![image](https://github.com/ThiagoDeSena/LiterAlura/assets/110785400/f75fa61c-0c8a-49ae-a17a-89cb9905180d)
 
 </p>
 
-## Objetivos do projeto
 
-- O objetivo do projeto é ter um fluxo similar ao que é feito no site, porém com algumas melhorias.
-- Criaremos um projeto Spring com linha de comando, utilizando a classe Scanner para fazer interações com o usuário via terminal.
-- Solicitaremos que o usuário digite o tipo de veículo desejado (carro, caminhão ou moto).
-- Feito isso, listaremos todas as marcas daquele tipo de veículo, solicitando que o usuário escolha uma marca pelo código.
-- Após essa escolha, listaremos todos os modelos de veículos daquela marca.
-- Solicitaremos que o usuário digite um trecho do modelo que ele quer visualizar, por exemplo PALIO.
-- Listaremos apenas os modelos que tiverem a palavra PALIO no nome.
-- Usuário escolherá um modelo específico pelo código e, diferente do site, já listaremos as avaliações para TODOS os anos disponíveis daquele modelo, retornando uma lista de valores dos anos do modelo de veículo escolhido.
+## Mergulhando no Código
 
-## Funcionalidades
+Com o console do IDE IntelliJ como nosso guia, acessaremos o terminal e desvendaremos um universo de 5 opções de interação:
 
-:heavy_check_mark: `Consulta por categoria:` Permite selecionar entre carros, motos ou caminhões. 
+:heavy_check_mark: `Buscar livro pelo título:` Uma aventura pela API Gutendex em busca de um tesouro literário. Encontraremos o 
+livro dos nossos sonhos e o armazenaremos em nosso banco de dados para consultas futuras. 
 
-:heavy_check_mark: `Consulta por marca:`  Permite selecionar a marca do veículo desejado, como Ford, Volkswagen, Fiat, etc.
+:heavy_check_mark: `Listar livros registrados:`  Uma estante virtual à nossa disposição. Todos os livros que coletamos ao longo 
+da jornada estarão listados aqui para nossa apreciação.
 
-:heavy_check_mark: `Consulta por modelo:`  Permite selecionar o modelo específico do veículo, como Palio, Gol, Fusca, etc.
+:heavy_check_mark: `Listar autores:`  Um encontro com os mestres das palavras. Descobriremos os autores que deram vida às histórias 
+que tanto amamos, incluindo seus anos de nascimento e falecimento.
 
-:heavy_check_mark: `Consulta por ano:` Permite selecionar o ano de fabricação do veículo.
+:heavy_check_mark: `Listar autores em determinado ano:` Uma viagem no tempo através da literatura. Desvendaremos quais autores 
+agraciaram o mundo com suas obras em um ano específico.
 
-:heavy_check_mark: `Exibição do valor FIPE:` Exibe o valor do veículo de acordo com a categoria, marca, modelo e ano selecionados.
+:heavy_check_mark: `Listar livros em determinado idioma:` Explorando a riqueza cultural da literatura. Encontraremos livros em diversos 
+idiomas, expandindo nossos horizontes literários.
 
 ## Como usar
 
