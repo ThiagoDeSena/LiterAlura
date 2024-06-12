@@ -11,7 +11,5 @@ public interface ILivrosRepository extends JpaRepository<Livro, Long> {
 
     Optional<Livro> findByTitleContaining(String titulo);
 
-    //Optional<Livro> findByNomeAutorContaining(String nomeAutor);
-
-    List<Livro> findByNomeAutorContaining(String nomeAutor);
+    List<Livro> findByIdiomasContainingIgnoreCase(String idioma);
 }
